@@ -1,0 +1,17 @@
+Introduction :
+	In 3D printing we use a file format called STL to store 3D model.In STL Models the design data of the models in stored in the form of triangles.For example consider a cube. Each face/Side of the cube can be represented using 2 triangles by drawing a diagonal for the side.So a cube can be represented using 12 triangles(6 sides * 2 for every side).In order to 3D print a model we need to sort the triangles with increasing Z value (Layer heights)
+
+Problem Statement :
+	Give a set of triangles in the format :
+	begin:
+	Triangle <ID>
+	V1 <X coordinate> <Y coordinate> <Z coordinate>
+	V2 <X coordinate> <Y coordinate> <Z coordinate>
+	V3 <X coordinate> <Y coordinate> <Z coordinate>
+	end:
+	where ID is the triangle number. V1, V2, V3 are vertices of the triangle.
+	Your task is to first find the minimum Z value for every triangle and sort the triangles based on the minimum Z value.
+
+	I have attached the C++ classes for triangle and 3D point as CustomDataTypes.h
+	The triangles data is provided as TriangleData.txt
+
