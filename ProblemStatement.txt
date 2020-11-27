@@ -10,8 +10,9 @@ Problem Statement :
 	V3 <X coordinate> <Y coordinate> <Z coordinate>
 	end:
 	where ID is the triangle number. V1, V2, V3 are vertices of the triangle.
-	Your task is to first find the minimum Z value for every triangle and sort the triangles based on the minimum Z value.
+	Your task is to first find the minimum value for every triangle and sort the triangles based on the minimum value.
 
-	I have attached the C++ classes for triangle and 3D point as CustomDataTypes.h
+	
 	The triangles data is provided as TriangleData.txt
 
+	
